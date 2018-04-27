@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.pager {
+  margin: 0 auto;
+  width: 494px; }
+  .pager .list {
+    overflow: hidden;
+    margin-right: -10px; }
+    .pager .list a {
+      float: left;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #a7adbd;
+      border-radius: 5px;
+      margin-right: 10px;
+      color: #a7adbd;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none; }
+      .pager .list a:hover {
+        border: 1px solid #1890ff;
+        color: #1890ff; }
+    .pager .list .active {
+      border: 1px solid #1890ff;
+      color: #1890ff; }
+
+/*# sourceMappingURL=pagination.css.map */

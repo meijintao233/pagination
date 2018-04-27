@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+$pager-size: 30px; 
+.pager{
+    margin: 0 auto;
+    width: ($pager-size + 10 + 2)*12-10;
+    .list{
+        overflow: hidden;
+        margin-right: -10px;
+        a{
+            float: left;
+            width: $pager-size;
+            height: $pager-size;
+            line-height: $pager-size;
+            border: 1px solid #a7adbd;
+            border-radius: 5px;
+            margin-right: 10px;
+            color: #a7adbd;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none;
+            &:hover{
+                border: 1px solid #1890ff;
+                color: #1890ff;
+            }
+        }
+        .active{
+            border: 1px solid #1890ff;
+            color: #1890ff;
+        }
+    }
+}

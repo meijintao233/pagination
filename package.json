@@ -1,0 +1,15 @@
+{
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "pagination plugin",
+  "main": "pagination.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build":"babel js --watch -d dist"
+  },
+  "author": "Mei",
+  "license": "ISC"
+}
